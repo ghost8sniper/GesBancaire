@@ -16,7 +16,7 @@ namespace GesBancaire
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmOperations());
+            Application.Run(new FrmOperations()); 
         }
     }
 }
